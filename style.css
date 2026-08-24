@@ -8,7 +8,14 @@ h1{
     text-align: center;
     margin: 100px;
     margin-bottom: 700px;
-    margin-right: -325px;
+    margin-right: -390px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px grey;
+    background: rgb(255, 149, 0);
 
 }
 
@@ -43,10 +50,11 @@ input{
     padding: 10px;
     margin: 2px;
     background: transparent;
-    box-shadow: 0px 3px 15px rgb(91, 241, 27);
+    box-shadow: 0px 3px 15px rgb(255, 140, 0);
 font-size: 40px;
 text-align: right;
 cursor: pointer;
+color: aliceblue;
 }
 
 input::placeholder{
@@ -77,4 +85,13 @@ button{
 
 .sp{
     color: chartreuse;
+}
+
+footer{
+
+margin: auto;
+padding-bottom: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: aliceblue;
+font-size: 50px;
 }
