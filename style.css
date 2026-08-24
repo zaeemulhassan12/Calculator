@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Geist+Pixel&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    margin: 100px;
+    margin-bottom: 700px;
+    margin-right: -325px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg ,rgb(100, 100, 254) ,rgb(58, 57, 55)) ;
+}
+
+.calculator{
+border: 1px solid grey;
+padding: 20px;
+border-radius: 20px;
+box-shadow: 0px 3px 15px grey;
+}
+
+input{
+    width: 310px;
+    border: none;
+    padding: 10px;
+    margin: 2px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgb(91, 241, 27);
+font-size: 40px;
+text-align: right;
+cursor: pointer;
+}
+
+input::placeholder{
+    color: wheat;
+}
+
+
+
+button{
+    border: none;
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    box-shadow: 0px 3px 10px whitesmoke;
+    cursor: pointer;
+}
+.equalbtn{
+    background-color: orange;
+}
+
+.operater{
+    color:orange;
+}
+
+.sp{
+    color: chartreuse;
+}
